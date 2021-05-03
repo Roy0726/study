@@ -30,3 +30,47 @@ PER = 15.79
 print(시가총액, type(시가총액))
 print(현재가, type(현재가))
 print(PER, type(PER))
+
+#13
+s="hello"
+t="python"
+
+print(s+"! "+t)
+
+#14
+print(2+2*3)
+
+#15
+a=128
+print(type(a))
+a="123"
+print(type(a))
+
+#16
+num_str="720"
+print(type(int(num_str)))
+
+#17
+num=100
+print(type(str(num)))
+
+#18
+num=15.79
+print(type(float(num)))
+
+#19
+year="2020"
+print(int(year)+3)
+
+#20
+monthly_air_conditioner_price=48584
+total_month=36
+print("total price : "+str(total_month*monthly_air_conditioner_price))
+
+#21
+letters='python'
+print(letters[0]+" "+letters[2])
+
+#22
+license_plate="24가 2210"
+print(license_plate[4:8])
